@@ -15,3 +15,9 @@
   font-weight: 600;
   margin-bottom: 0px;
 }
+
+.auranya-gradient {
+    background: linear-gradient(90deg, #9d54a1, #f03f86,#fac933);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
