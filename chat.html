@@ -35,6 +35,41 @@
 
 
 
+    <!-- Large Chat Interface -->
+  <main class="flex-1 flex items-center justify-center p-4 mt-6 ">
+     <!-- bg-gray-900/95 rounded-3xl shadow-2xl flex flex-col border border-[#9d54a1]/40 -->
+    <div class="w-full max-w-4xl h-[80vh] bg-gray-900/95 rounded-2xl shadow-xl flex flex-col shadow-2xl border border-[#9d54a1]/40">
+
+      <!-- Chat Header -->
+      <div class="flex items-center justify-between px-6 py-4 border-b border-[#f03f86]/40 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 rounded-t-3xl">
+        <h1 class="text-3xl font-bold text-[#fac933]">Auranya AI Chat</h1>
+        <span class="px-3 py-1 text-sm font-semibold rounded-full bg-[#f03f86]/20 text-[#f03f86]">● Online</span>
+      </div>
+
+      <!-- Chat Messages -->
+      <div id="chatMessages" class="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-900">
+        <div class="flex justify-start">
+          <div class="bg-[#9d54a1] text-white p-3 rounded-lg max-w-lg">
+            Hello! How can I assist you today?
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Box -->
+      <div class="flex gap-3 p-3 border-t border-[#f03f86]/40 bg-gray-900/90">
+        <input id="chatInput" type="text" placeholder="Type your message..."
+          class="flex-1 p-2.5 rounded-lg border-2 border-[#f03f86] focus:outline-none focus:ring-2 focus:ring-[#9d54a1] text-black text-lg">
+        <button id="sendBtn"
+          class="send-btn font-bold px-5 rounded-lg hover:scale-105 transition-transform text-lg">
+          Send
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+
+
     <script src="./assets/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
