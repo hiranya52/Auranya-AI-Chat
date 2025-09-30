@@ -1,0 +1,31 @@
+.gradient-btn {
+  background: linear-gradient(90deg, #9d54a1, #f03f86, #fac933);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.gradient-btn-2 {
+  background: linear-gradient(90deg, #9d54a1, #f03f86, #fac933);
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.auranya-gradient {
+  background: linear-gradient(90deg, #9d54a1, #f03f86, #fac933);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.send-btn {
+  background: linear-gradient(90deg, #9d54a1, #f03f86, #fac933);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
